@@ -1,10 +1,10 @@
-# templ8
+# tmpel8
 A template maker for NodeJS.
 
 # Example
 index.js:
 ```javascript
-var templ8 = require('templ8-maker');
+var templ8 = require('tmpel8');
 
 templ8.use('index.tmpl8', {
 	demo: process.env.app_secret,
